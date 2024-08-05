@@ -116,3 +116,8 @@ Copy code .image-container {
   height: 18rem !important;
   width: 85% !important;
 }
+
+.cart-image {
+  height: 7.5rem !important;
+  width: 8rem !important;
+}

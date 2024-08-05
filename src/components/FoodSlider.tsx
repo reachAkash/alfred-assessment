@@ -9,31 +9,29 @@ import "swiper/css/scrollbar";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { FaHeart } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { updateCurrentItem } from "@/redux/cartSlice";
 
 const FoodSlider: React.FC = () => {
   const foodItems1 = RestrauntData.restaurants[0]?.menu;
   const foodItems2 = RestrauntData.restaurants[1]?.menu;
   const FoodArray = [...foodItems1, ...foodItems2];
-  console.log(FoodArray);
 
   return (
     <div className="space-y-4">
       <div className="font-semibold text-xl">Foods</div>
       <Swiper
-        // install Swiper modules
         modules={[Navigation, Pagination, A11y, Autoplay]}
         spaceBetween={20}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
-        loop={true} // Enable infinite looping
+        loop={true}
         className=" w-full"
         breakpoints={{
-          // Up to 767px (mobile size)
           0: {
-            slidesPerView: 4, // Show only 1 card on mobile
+            slidesPerView: 4,
           },
-          // Above 1024px (desktop size)
           1024: {
-            slidesPerView: 8, // Show 3 cards on desktop (default)
+            slidesPerView: 8,
           },
         }}
       >
@@ -58,43 +56,53 @@ const FoodSlider: React.FC = () => {
 
 export const PopularItemSlider: React.FC = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const FoodArray = RestrauntData.restaurants[3]?.menu;
+
+  const handleAddToCurrent = (item: any) => {
+    console.log(item);
+    dispatch(updateCurrentItem(item));
+  };
+
   return (
     <div className="space-y-4">
       <div className="font-semibold text-xl">Popular Item</div>
       <Swiper
-        // install Swiper modules
         modules={[Navigation, Pagination, A11y, Autoplay]}
         spaceBetween={-30}
-        loop={true} // Enable infinite looping
+        loop={true}
         className=" w-full"
         breakpoints={{
-          // Up to 767px (mobile size)
           0: {
-            slidesPerView: 1, // Show only 1 card on mobile
+            slidesPerView: 1,
           },
-          // Above 1024px (desktop size)
         }}
       >
         {FoodArray?.map((item) => {
           return (
             <SwiperSlide>
               <div
-                onClick={() => navigate("/food-item")}
+                onClick={() => {
+                  navigate("/food-item");
+                  handleAddToCurrent(item);
+                }}
                 className="image-container relative flex text-sm text-center flex-col items-center justify-center"
               >
                 <img
-                  className="popular-image rounded-lg"
+                  className="popular-image rounded-3xl"
                   src={item?.image}
                   alt={item?.item}
                 />
                 <div className="absolute flex flex-col h-full w-full py-4 px-10 text-start justify-between text-white top-0 left-0">
                   <div className="text-2xl font-semibold">{item?.item}</div>
                   <div className="space-y-4">
-                    <div className="text-lg">Rs. 130</div>
+                    <div className="text-lg">Rs. {item?.price}</div>
                     <div className="w-full flex items-center justify-between">
-                      <button className="bg-white px-8 py-3 rounded-full text-black">
-                        Add to Cart
+                      <button
+                        onClick={() => handleAddToCurrent(item)}
+                        className="bg-white px-8 py-3 rounded-full text-black"
+                      >
+                        View Item
                       </button>
                       <span className="p-3 bg-gray-100 rounded-full">
                         <IoChatbubbleEllipsesOutline className="text-2xl text-black" />
