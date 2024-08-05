@@ -1,0 +1,364 @@
+{
+  "restaurants": [
+    {
+      "name": "Spice Heaven",
+      "location": "Mumbai, Maharashtra",
+      "menu": [
+        {
+          "item": "Paneer Butter Masala",
+          "price": 250,
+          "in_stock": true,
+          "description": "Cottage cheese cubes in a rich and creamy tomato-based gravy with aromatic spices."
+        },
+        {
+          "item": "Chicken Biryani",
+          "price": 300,
+          "in_stock": false,
+          "description": "Aromatic basmati rice cooked with tender chicken pieces, saffron, and traditional spices."
+        },
+        {
+          "item": "Masala Dosa",
+          "price": 120,
+          "in_stock": true,
+          "description": "Crispy rice and lentil crepe filled with spicy potato filling, served with chutney and sambar."
+        },
+        {
+          "item": "Dal Makhani",
+          "price": 180,
+          "in_stock": true,
+          "description": "Slow-cooked black lentils in a creamy tomato sauce, infused with butter and spices."
+        },
+        {
+          "item": "Gulab Jamun",
+          "price": 90,
+          "in_stock": false,
+          "description": "Soft, deep-fried dough balls soaked in a sweet rose-flavored sugar syrup."
+        }
+      ]
+    },
+    {
+      "name": "Royal Indian Cuisine",
+      "location": "Delhi, Delhi",
+      "menu": [
+        {
+          "item": "Butter Chicken",
+          "price": 350,
+          "in_stock": true,
+          "description": "Tender chicken pieces cooked in a creamy tomato-based sauce with butter and spices."
+        },
+        {
+          "item": "Naan",
+          "price": 50,
+          "in_stock": true,
+          "description": "Soft and fluffy leavened flatbread, traditionally cooked in a tandoor."
+        },
+        {
+          "item": "Aloo Paratha",
+          "price": 80,
+          "in_stock": true,
+          "description": "Whole wheat flatbread stuffed with a spiced potato filling, served with yogurt or pickle."
+        },
+        {
+          "item": "Rasgulla",
+          "price": 100,
+          "in_stock": false,
+          "description": "Spongy and soft cheese balls soaked in light sugar syrup, a classic Bengali sweet."
+        },
+        {
+          "item": "Palak Paneer",
+          "price": 220,
+          "in_stock": true,
+          "description": "Paneer cubes cooked in a thick, creamy spinach sauce with Indian spices."
+        }
+      ]
+    },
+    {
+      "name": "Taste of India",
+      "location": "Bengaluru, Karnataka",
+      "menu": [
+        {
+          "item": "Hyderabadi Biryani",
+          "price": 320,
+          "in_stock": false,
+          "description": "Spicy and flavorful biryani with basmati rice, marinated chicken, and a blend of spices."
+        },
+        {
+          "item": "Idli Sambar",
+          "price": 60,
+          "in_stock": true,
+          "description": "Steamed rice cakes served with a savory lentil and vegetable stew."
+        },
+        {
+          "item": "Vada Pav",
+          "price": 40,
+          "in_stock": true,
+          "description": "Spicy potato fritter sandwiched in a bun, served with chutneys."
+        },
+        {
+          "item": "Pav Bhaji",
+          "price": 150,
+          "in_stock": true,
+          "description": "Spicy vegetable mash served with buttered buns and garnished with onions and lemon."
+        },
+        {
+          "item": "Jalebi",
+          "price": 70,
+          "in_stock": false,
+          "description": "Crispy, spiral-shaped sweets soaked in sugar syrup, served warm."
+        }
+      ]
+    },
+    {
+      "name": "Flavors of India",
+      "location": "Hyderabad, Telangana",
+      "menu": [
+        {
+          "item": "Biryani",
+          "price": 300,
+          "in_stock": true,
+          "description": "Fragrant basmati rice cooked with marinated meat and a blend of spices."
+        },
+        {
+          "item": "Haleem",
+          "price": 280,
+          "in_stock": false,
+          "description": "Slow-cooked stew made with meat, lentils, and wheat, seasoned with traditional spices."
+        },
+        {
+          "item": "Dum Ka Murgh",
+          "price": 350,
+          "in_stock": true,
+          "description": "Marinated chicken cooked on low heat in a sealed pot to retain flavors."
+        },
+        {
+          "item": "Qubani Ka Meetha",
+          "price": 120,
+          "in_stock": true,
+          "description": "Sweet dish made from dried apricots, served with cream or ice cream."
+        },
+        {
+          "item": "Double Ka Meetha",
+          "price": 100,
+          "in_stock": true,
+          "description": "Rich bread pudding made with fried bread slices, milk, and dry fruits."
+        }
+      ]
+    },
+    {
+      "name": "Kerala Delight",
+      "location": "Kochi, Kerala",
+      "menu": [
+        {
+          "item": "Appam with Stew",
+          "price": 200,
+          "in_stock": true,
+          "description": "Soft and fluffy rice pancakes served with a coconut milk-based vegetable or meat stew."
+        },
+        {
+          "item": "Puttu and Kadala Curry",
+          "price": 150,
+          "in_stock": false,
+          "description": "Steamed rice cake cylinders served with spicy black chickpea curry."
+        },
+        {
+          "item": "Fish Molee",
+          "price": 300,
+          "in_stock": true,
+          "description": "Mildly spiced fish curry cooked in coconut milk and spices."
+        },
+        {
+          "item": "Beef Fry",
+          "price": 350,
+          "in_stock": true,
+          "description": "Spicy and flavorful fried beef dish, a Kerala specialty."
+        },
+        {
+          "item": "Banana Chips",
+          "price": 100,
+          "in_stock": true,
+          "description": "Crispy and salty banana slices, deep-fried to perfection."
+        }
+      ]
+    },
+    {
+      "name": "Bengal Bistro",
+      "location": "Kolkata, West Bengal",
+      "menu": [
+        {
+          "item": "Fish Curry",
+          "price": 250,
+          "in_stock": true,
+          "description": "Traditional Bengali fish curry with mustard seeds and spices."
+        },
+        {
+          "item": "Macher Jhol",
+          "price": 220,
+          "in_stock": false,
+          "description": "Light fish stew cooked with vegetables and mild spices."
+        },
+        {
+          "item": "Kosha Mangsho",
+          "price": 300,
+          "in_stock": true,
+          "description": "Slow-cooked spicy mutton curry, a Bengali classic."
+        },
+        {
+          "item": "Sandesh",
+          "price": 80,
+          "in_stock": true,
+          "description": "Soft and sweet dessert made from fresh paneer, flavored with cardamom."
+        },
+        {
+          "item": "Mishti Doi",
+          "price": 60,
+          "in_stock": true,
+          "description": "Fermented sweet yogurt, a popular Bengali dessert."
+        }
+      ]
+    },
+    {
+      "name": "Punjab Palace",
+      "location": "Amritsar, Punjab",
+      "menu": [
+        {
+          "item": "Amritsari Kulcha",
+          "price": 100,
+          "in_stock": true,
+          "description": "Stuffed flatbread baked in a tandoor, served with chole and chutney."
+        },
+        {
+          "item": "Sarson Da Saag",
+          "price": 180,
+          "in_stock": true,
+          "description": "Traditional Punjabi dish made with mustard greens and spices."
+        },
+        {
+          "item": "Makki Di Roti",
+          "price": 60,
+          "in_stock": true,
+          "description": "Cornmeal flatbread, usually served with Sarson Da Saag."
+        },
+        {
+          "item": "Lassi",
+          "price": 50,
+          "in_stock": true,
+          "description": "Thick and creamy yogurt-based drink, sweet or salted."
+        },
+        {
+          "item": "Chole Bhature",
+          "price": 150,
+          "in_stock": false,
+          "description": "Spicy chickpea curry served with fluffy deep-fried bread."
+        }
+      ]
+    },
+    {
+      "name": "Rajasthani Rasoi",
+      "location": "Jaipur, Rajasthan",
+      "menu": [
+        {
+          "item": "Dal Baati Churma",
+          "price": 200,
+          "in_stock": true,
+          "description": "A traditional Rajasthani dish consisting of baked wheat balls, lentil curry, and sweetened crushed wheat."
+        },
+        {
+          "item": "Gatte Ki Sabzi",
+          "price": 150,
+          "in_stock": true,
+          "description": "Gram flour dumplings cooked in a spicy yogurt-based curry."
+        },
+        {
+          "item": "Laal Maas",
+          "price": 350,
+          "in_stock": false,
+          "description": "Spicy red meat curry made with mutton and a variety of Rajasthani spices."
+        },
+        {
+          "item": "Kachori",
+          "price": 50,
+          "in_stock": true,
+          "description": "Deep-fried pastry filled with spiced lentils, served with chutney."
+        },
+        {
+          "item": "Malpua",
+          "price": 100,
+          "in_stock": true,
+          "description": "Sweet pancakes soaked in sugar syrup, garnished with nuts."
+        }
+      ]
+    },
+    {
+      "name": "Goan Delight",
+      "location": "Panaji, Goa",
+      "menu": [
+        {
+          "item": "Prawn Balchao",
+          "price": 300,
+          "in_stock": true,
+          "description": "Spicy and tangy prawn pickle made with a blend of Goan spices."
+        },
+        {
+          "item": "Fish Recheado",
+          "price": 280,
+          "in_stock": false,
+          "description": "Fish marinated with a spicy recheado paste and shallow fried."
+        },
+        {
+          "item": "Bebinca",
+          "price": 150,
+          "in_stock": true,
+          "description": "Layered Goan dessert made from coconut milk, eggs, and sugar."
+        },
+        {
+          "item": "Goan Sausages",
+          "price": 200,
+          "in_stock": true,
+          "description": "Spicy pork sausages made with Goan spices, usually served with bread."
+        },
+        {
+          "item": "Sorpotel",
+          "price": 250,
+          "in_stock": true,
+          "description": "Spicy pork stew, a Goan specialty, cooked with vinegar and spices."
+        }
+      ]
+    },
+    {
+      "name": "Udupi Cafe",
+      "location": "Chennai, Tamil Nadu",
+      "menu": [
+        {
+          "item": "Uttapam",
+          "price": 120,
+          "in_stock": true,
+          "description": "Thick pancake made from rice and lentil batter, topped with vegetables."
+        },
+        {
+          "item": "Sambar Vada",
+          "price": 80,
+          "in_stock": true,
+          "description": "Lentil doughnuts soaked in spicy lentil and vegetable stew."
+        },
+        {
+          "item": "Rava Kesari",
+          "price": 60,
+          "in_stock": true,
+          "description": "Semolina-based sweet dish flavored with saffron and garnished with nuts."
+        },
+        {
+          "item": "Medu Vada",
+          "price": 50,
+          "in_stock": true,
+          "description": "Crispy and savory fried lentil doughnuts, served with chutney."
+        },
+        {
+          "item": "Filter Coffee",
+          "price": 30,
+          "in_stock": true,
+          "description": "Strong South Indian coffee served with frothy milk in a steel tumbler."
+        }
+      ]
+    }
+  ]
+}
