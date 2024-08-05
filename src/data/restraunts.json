@@ -8,31 +8,36 @@
           "item": "Paneer Butter Masala",
           "price": 250,
           "in_stock": true,
-          "description": "Cottage cheese cubes in a rich and creamy tomato-based gravy with aromatic spices."
+          "description": "Cottage cheese cubes in a rich and creamy tomato-based gravy with aromatic spices.",
+          "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paneer-butter-masala.jpg"
         },
         {
           "item": "Chicken Biryani",
           "price": 300,
           "in_stock": false,
-          "description": "Aromatic basmati rice cooked with tender chicken pieces, saffron, and traditional spices."
+          "description": "Aromatic basmati rice cooked with tender chicken pieces, saffron, and traditional spices.",
+          "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg"
         },
         {
           "item": "Masala Dosa",
           "price": 120,
           "in_stock": true,
-          "description": "Crispy rice and lentil crepe filled with spicy potato filling, served with chutney and sambar."
+          "description": "Crispy rice and lentil crepe filled with spicy potato filling, served with chutney and sambar.",
+          "image": "https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg"
         },
         {
           "item": "Dal Makhani",
           "price": 180,
           "in_stock": true,
-          "description": "Slow-cooked black lentils in a creamy tomato sauce, infused with butter and spices."
+          "description": "Slow-cooked black lentils in a creamy tomato sauce, infused with butter and spices.",
+          "image": "https://www.cookwithmanali.com/wp-content/uploads/2019/04/Restaurant-Style-Dal-Makhani.jpg"
         },
         {
           "item": "Gulab Jamun",
           "price": 90,
           "in_stock": false,
-          "description": "Soft, deep-fried dough balls soaked in a sweet rose-flavored sugar syrup."
+          "description": "Soft, deep-fried dough balls soaked in a sweet rose-flavored sugar syrup.",
+          "image": "https://static.toiimg.com/thumb/63799510.cms?imgsize=1091643&width=800&height=800"
         }
       ]
     },
@@ -44,31 +49,36 @@
           "item": "Butter Chicken",
           "price": 350,
           "in_stock": true,
-          "description": "Tender chicken pieces cooked in a creamy tomato-based sauce with butter and spices."
+          "description": "Tender chicken pieces cooked in a creamy tomato-based sauce with butter and spices.",
+          "image": "https://www.pepperdelight.com/wp-content/uploads/2020/10/pepper-delight-butter-chicken-1-scaled.jpg"
         },
         {
           "item": "Naan",
           "price": 50,
           "in_stock": true,
-          "description": "Soft and fluffy leavened flatbread, traditionally cooked in a tandoor."
+          "description": "Soft and fluffy leavened flatbread, traditionally cooked in a tandoor.",
+          "image": "https://rainbowplantlife.com/wp-content/uploads/2021/09/updated-naan-photo-for-cover-image-1-of-1-1.jpg"
         },
         {
           "item": "Aloo Paratha",
           "price": 80,
           "in_stock": true,
-          "description": "Whole wheat flatbread stuffed with a spiced potato filling, served with yogurt or pickle."
+          "description": "Whole wheat flatbread stuffed with a spiced potato filling, served with yogurt or pickle.",
+          "image": "https://smithakalluraya.com/wp-content/uploads/2015/02/image.1024x1024-95.jpg"
         },
         {
           "item": "Rasgulla",
           "price": 100,
           "in_stock": false,
-          "description": "Spongy and soft cheese balls soaked in light sugar syrup, a classic Bengali sweet."
+          "description": "Spongy and soft cheese balls soaked in light sugar syrup, a classic Bengali sweet.",
+          "image": "https://www.kuchpakrahahai.in/wp-content/uploads/2020/05/Rasgulla-2BRecipe-2Bin-2BPressure-2BCooker.jpg"
         },
         {
           "item": "Palak Paneer",
           "price": 220,
           "in_stock": true,
-          "description": "Paneer cubes cooked in a thick, creamy spinach sauce with Indian spices."
+          "description": "Paneer cubes cooked in a thick, creamy spinach sauce with Indian spices.",
+          "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/palak-paneer-3.jpg"
         }
       ]
     },
@@ -80,31 +90,36 @@
           "item": "Hyderabadi Biryani",
           "price": 320,
           "in_stock": false,
-          "description": "Spicy and flavorful biryani with basmati rice, marinated chicken, and a blend of spices."
+          "description": "Spicy and flavorful biryani with basmati rice, marinated chicken, and a blend of spices.",
+          "image": "https://static.wixstatic.com/media/91e241_475faa4fa56341f3878699dde5ab4904~mv2.jpg/v1/fill/w_720,h_480,al_c,q_80,enc_auto/91e241_475faa4fa56341f3878699dde5ab4904~mv2.jpg"
         },
         {
           "item": "Idli Sambar",
           "price": 60,
           "in_stock": true,
-          "description": "Steamed rice cakes served with a savory lentil and vegetable stew."
+          "description": "Steamed rice cakes served with a savory lentil and vegetable stew.",
+          "image": "https://sapanarestaurant.com/wp-content/uploads/2019/11/idli-sambar-900x600.jpg"
         },
         {
           "item": "Vada Pav",
           "price": 40,
           "in_stock": true,
-          "description": "Spicy potato fritter sandwiched in a bun, served with chutneys."
+          "description": "Spicy potato fritter sandwiched in a bun, served with chutneys.",
+          "image": "https://ministryofcurry.com/wp-content/uploads/2024/06/vada-pav-3.jpg"
         },
         {
           "item": "Pav Bhaji",
           "price": 150,
           "in_stock": true,
-          "description": "Spicy vegetable mash served with buttered buns and garnished with onions and lemon."
+          "description": "Spicy vegetable mash served with buttered buns and garnished with onions and lemon.",
+          "image": "https://veganbell.com/wp-content/uploads/2023/08/Pav-Bhaji-1.jpg"
         },
         {
           "item": "Jalebi",
           "price": 70,
           "in_stock": false,
-          "description": "Crispy, spiral-shaped sweets soaked in sugar syrup, served warm."
+          "description": "Crispy, spiral-shaped sweets soaked in sugar syrup, served warm.",
+          "image": "https://www.sugarspicenmore.com/wp-content/uploads/2022/04/Jalebi.jpg"
         }
       ]
     },
@@ -116,31 +131,36 @@
           "item": "Biryani",
           "price": 300,
           "in_stock": true,
-          "description": "Fragrant basmati rice cooked with marinated meat and a blend of spices."
+          "description": "Fragrant basmati rice cooked with marinated meat and a blend of spices.",
+          "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg"
         },
         {
           "item": "Haleem",
           "price": 280,
           "in_stock": false,
-          "description": "Slow-cooked stew made with meat, lentils, and wheat, seasoned with traditional spices."
+          "description": "Slow-cooked stew made with meat, lentils, and wheat, seasoned with traditional spices.",
+          "image": "https://greatcurryrecipes.net/wp-content/uploads/2023/04/47E9FC77-772E-4E52-8A77-215AB93E0A5A-735x980.jpeg"
         },
         {
           "item": "Dum Ka Murgh",
           "price": 350,
           "in_stock": true,
-          "description": "Marinated chicken cooked on low heat in a sealed pot to retain flavors."
+          "description": "Marinated chicken cooked on low heat in a sealed pot to retain flavors.",
+          "image": "https://static.toiimg.com/thumb/63726782.cms?width=1200&height=900"
         },
         {
           "item": "Qubani Ka Meetha",
           "price": 120,
           "in_stock": true,
-          "description": "Sweet dish made from dried apricots, served with cream or ice cream."
+          "description": "Sweet dish made from dried apricots, served with cream or ice cream.",
+          "image": "https://faridascookbook.com/wp-content/uploads/2022/10/qubani-ka-meetha-12-500x375.jpg"
         },
         {
           "item": "Double Ka Meetha",
           "price": 100,
           "in_stock": true,
-          "description": "Rich bread pudding made with fried bread slices, milk, and dry fruits."
+          "description": "Rich bread pudding made with fried bread slices, milk, and dry fruits.",
+          "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/03/double-ka-meetha-recipe.webp"
         }
       ]
     },
@@ -152,211 +172,29 @@
           "item": "Appam with Stew",
           "price": 200,
           "in_stock": true,
-          "description": "Soft and fluffy rice pancakes served with a coconut milk-based vegetable or meat stew."
+          "description": "Soft and fluffy rice pancakes served with a coconut milk-based vegetable or meat stew.",
+          "image": "https://www.pepperdelight.com/wp-content/uploads/2017/04/pepper-delight-chicken-stew-2.jpg"
         },
         {
           "item": "Puttu and Kadala Curry",
           "price": 150,
           "in_stock": false,
-          "description": "Steamed rice cake cylinders served with spicy black chickpea curry."
+          "description": "Steamed rice cake cylinders served with spicy black chickpea curry.",
+          "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/09/kadala-curry-1.jpg"
         },
         {
           "item": "Fish Molee",
           "price": 300,
           "in_stock": true,
-          "description": "Mildly spiced fish curry cooked in coconut milk and spices."
-        },
-        {
-          "item": "Beef Fry",
-          "price": 350,
-          "in_stock": true,
-          "description": "Spicy and flavorful fried beef dish, a Kerala specialty."
+          "description": "Mildly spiced fish curry cooked in coconut milk and spices.",
+          "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Fish-Molee.jpg"
         },
         {
           "item": "Banana Chips",
           "price": 100,
           "in_stock": true,
-          "description": "Crispy and salty banana slices, deep-fried to perfection."
-        }
-      ]
-    },
-    {
-      "name": "Bengal Bistro",
-      "location": "Kolkata, West Bengal",
-      "menu": [
-        {
-          "item": "Fish Curry",
-          "price": 250,
-          "in_stock": true,
-          "description": "Traditional Bengali fish curry with mustard seeds and spices."
-        },
-        {
-          "item": "Macher Jhol",
-          "price": 220,
-          "in_stock": false,
-          "description": "Light fish stew cooked with vegetables and mild spices."
-        },
-        {
-          "item": "Kosha Mangsho",
-          "price": 300,
-          "in_stock": true,
-          "description": "Slow-cooked spicy mutton curry, a Bengali classic."
-        },
-        {
-          "item": "Sandesh",
-          "price": 80,
-          "in_stock": true,
-          "description": "Soft and sweet dessert made from fresh paneer, flavored with cardamom."
-        },
-        {
-          "item": "Mishti Doi",
-          "price": 60,
-          "in_stock": true,
-          "description": "Fermented sweet yogurt, a popular Bengali dessert."
-        }
-      ]
-    },
-    {
-      "name": "Punjab Palace",
-      "location": "Amritsar, Punjab",
-      "menu": [
-        {
-          "item": "Amritsari Kulcha",
-          "price": 100,
-          "in_stock": true,
-          "description": "Stuffed flatbread baked in a tandoor, served with chole and chutney."
-        },
-        {
-          "item": "Sarson Da Saag",
-          "price": 180,
-          "in_stock": true,
-          "description": "Traditional Punjabi dish made with mustard greens and spices."
-        },
-        {
-          "item": "Makki Di Roti",
-          "price": 60,
-          "in_stock": true,
-          "description": "Cornmeal flatbread, usually served with Sarson Da Saag."
-        },
-        {
-          "item": "Lassi",
-          "price": 50,
-          "in_stock": true,
-          "description": "Thick and creamy yogurt-based drink, sweet or salted."
-        },
-        {
-          "item": "Chole Bhature",
-          "price": 150,
-          "in_stock": false,
-          "description": "Spicy chickpea curry served with fluffy deep-fried bread."
-        }
-      ]
-    },
-    {
-      "name": "Rajasthani Rasoi",
-      "location": "Jaipur, Rajasthan",
-      "menu": [
-        {
-          "item": "Dal Baati Churma",
-          "price": 200,
-          "in_stock": true,
-          "description": "A traditional Rajasthani dish consisting of baked wheat balls, lentil curry, and sweetened crushed wheat."
-        },
-        {
-          "item": "Gatte Ki Sabzi",
-          "price": 150,
-          "in_stock": true,
-          "description": "Gram flour dumplings cooked in a spicy yogurt-based curry."
-        },
-        {
-          "item": "Laal Maas",
-          "price": 350,
-          "in_stock": false,
-          "description": "Spicy red meat curry made with mutton and a variety of Rajasthani spices."
-        },
-        {
-          "item": "Kachori",
-          "price": 50,
-          "in_stock": true,
-          "description": "Deep-fried pastry filled with spiced lentils, served with chutney."
-        },
-        {
-          "item": "Malpua",
-          "price": 100,
-          "in_stock": true,
-          "description": "Sweet pancakes soaked in sugar syrup, garnished with nuts."
-        }
-      ]
-    },
-    {
-      "name": "Goan Delight",
-      "location": "Panaji, Goa",
-      "menu": [
-        {
-          "item": "Prawn Balchao",
-          "price": 300,
-          "in_stock": true,
-          "description": "Spicy and tangy prawn pickle made with a blend of Goan spices."
-        },
-        {
-          "item": "Fish Recheado",
-          "price": 280,
-          "in_stock": false,
-          "description": "Fish marinated with a spicy recheado paste and shallow fried."
-        },
-        {
-          "item": "Bebinca",
-          "price": 150,
-          "in_stock": true,
-          "description": "Layered Goan dessert made from coconut milk, eggs, and sugar."
-        },
-        {
-          "item": "Goan Sausages",
-          "price": 200,
-          "in_stock": true,
-          "description": "Spicy pork sausages made with Goan spices, usually served with bread."
-        },
-        {
-          "item": "Sorpotel",
-          "price": 250,
-          "in_stock": true,
-          "description": "Spicy pork stew, a Goan specialty, cooked with vinegar and spices."
-        }
-      ]
-    },
-    {
-      "name": "Udupi Cafe",
-      "location": "Chennai, Tamil Nadu",
-      "menu": [
-        {
-          "item": "Uttapam",
-          "price": 120,
-          "in_stock": true,
-          "description": "Thick pancake made from rice and lentil batter, topped with vegetables."
-        },
-        {
-          "item": "Sambar Vada",
-          "price": 80,
-          "in_stock": true,
-          "description": "Lentil doughnuts soaked in spicy lentil and vegetable stew."
-        },
-        {
-          "item": "Rava Kesari",
-          "price": 60,
-          "in_stock": true,
-          "description": "Semolina-based sweet dish flavored with saffron and garnished with nuts."
-        },
-        {
-          "item": "Medu Vada",
-          "price": 50,
-          "in_stock": true,
-          "description": "Crispy and savory fried lentil doughnuts, served with chutney."
-        },
-        {
-          "item": "Filter Coffee",
-          "price": 30,
-          "in_stock": true,
-          "description": "Strong South Indian coffee served with frothy milk in a steel tumbler."
+          "description": "Crispy and salty banana slices, deep-fried to perfection.",
+          "image": "https://media.licdn.com/dms/image/D5612AQEWJtnG-AZpFQ/article-inline_image-shrink_1000_1488/0/1709095903373?e=1727913600&v=beta&t=OR8whcb1aC9oyRZbAEEjQ7Yx4WN9H8j-F_z95vKlqbo"
         }
       ]
     }
