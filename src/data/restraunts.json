@@ -3,6 +3,7 @@
     {
       "name": "Spice Heaven",
       "location": "Mumbai, Maharashtra",
+      "resImage": "https://content.jdmagicbox.com/v2/comp/bangalore/r2/080pxx80.xx80.181001190024.j1r2/catalogue/mirchi-bites-spice-heaven-marathahalli-bangalore-restaurants-pywj3ikp61-250.jpg",
       "menu": [
         {
           "item": "Paneer Butter Masala",
@@ -44,6 +45,7 @@
     {
       "name": "Royal Indian Cuisine",
       "location": "Delhi, Delhi",
+      "resImage": "https://images.otstatic.com/prod1/41682521/2/large.jpg",
       "menu": [
         {
           "item": "Butter Chicken",
@@ -85,6 +87,7 @@
     {
       "name": "Taste of India",
       "location": "Bengaluru, Karnataka",
+      "resImage": "https://media-cdn.tripadvisor.com/media/photo-p/23/1d/8c/14/taste-of-india-nw1.jpg",
       "menu": [
         {
           "item": "Hyderabadi Biryani",
@@ -126,6 +129,7 @@
     {
       "name": "Flavors of India",
       "location": "Hyderabad, Telangana",
+      "resImage": "https://newflavorsofindia.com/images/location2.jpg",
       "menu": [
         {
           "item": "Biryani",
@@ -167,6 +171,7 @@
     {
       "name": "Kerala Delight",
       "location": "Kochi, Kerala",
+      "resImage": "https://content3.jdmagicbox.com/comp/ghaziabad/f7/011px120.x120.180728144015.y3f7/catalogue/kerala-delight-ghaziabad-atydmdw07t.jpg",
       "menu": [
         {
           "item": "Appam with Stew",

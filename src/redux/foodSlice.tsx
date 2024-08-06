@@ -8,9 +8,16 @@ export interface CartPrototype {
   description: string;
 }
 
+export interface RestrauntState {
+  name: string;
+  location: string;
+  menu: [];
+}
+
 export interface CartState {
   cart: CartPrototype[];
   currentItem: CartPrototype;
+  currentRes: RestrauntState;
 }
 
 const initialState: CartState = {
@@ -21,15 +28,21 @@ const initialState: CartState = {
     price: "",
     description: "",
   },
+  currentRes: {
+    name: "",
+    location: "",
+    menu: [],
+  },
 };
 
 export const cartSlice = createSlice({
   name: "cart",
   initialState,
   reducers: {
+    currentRes: (state, action: PayloadAction<RestrauntState>) => {
+      state.currentRes = action.payload;
+    },
     updateCurrentItem: (state, action: PayloadAction<CartPrototype>) => {
-      // if(action.payload.item || action.payload.image || action.payload.price || action.payload.quantity){
-      // }
       state.currentItem = action.payload;
     },
     addToCart: (state, action: PayloadAction<CartPrototype>) => {
@@ -42,7 +55,7 @@ export const cartSlice = createSlice({
   },
 });
 
-export const { updateCurrentItem, addToCart, removeFromCart } =
+export const { currentRes, updateCurrentItem, addToCart, removeFromCart } =
   cartSlice.actions;
 
 export default cartSlice.reducer;

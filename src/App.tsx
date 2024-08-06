@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import FoodItem from "./components/FoodItem";
 import Cart from "./components/Cart";
+import { Toaster } from "@/components/ui/sonner";
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Toaster />
     </BrowserRouter>
   );
 };
