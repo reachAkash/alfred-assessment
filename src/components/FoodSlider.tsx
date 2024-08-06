@@ -15,6 +15,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { currentRes, updateCurrentItem } from "@/redux/foodSlice";
 import { v4 as uuidv4 } from "uuid";
+import { toast } from "sonner";
 
 const FoodSlider: React.FC = () => {
   const foodItems1 = RestrauntData.restaurants[0]?.menu;
@@ -68,6 +69,16 @@ export const PopularItemSlider: React.FC = () => {
     dispatch(updateCurrentItem(item));
   };
 
+  const handleToast = (data: string, desc: string) => {
+    toast(data, {
+      description: desc,
+      action: {
+        label: "Undo",
+        onClick: () => console.log("undo"),
+      },
+    });
+  };
+
   return (
     <div className="space-y-4">
       <div className="font-semibold text-xl">Popular Item</div>
@@ -108,10 +119,26 @@ export const PopularItemSlider: React.FC = () => {
                       >
                         View Item
                       </button>
-                      <span className="p-3 bg-gray-100 rounded-full">
+                      <span
+                        onClick={() =>
+                          handleToast(
+                            "Feature Coming Soon!",
+                            "Thank you for your patience..."
+                          )
+                        }
+                        className="p-3 bg-gray-100 rounded-full"
+                      >
                         <IoChatbubbleEllipsesOutline className="text-2xl text-black" />
                       </span>
-                      <span className="p-3 bg-gray-100 rounded-full">
+                      <span
+                        onClick={() =>
+                          handleToast(
+                            "Feature Coming Soon!",
+                            "Thank you for your patience..."
+                          )
+                        }
+                        className="p-3 bg-gray-100 rounded-full"
+                      >
                         <FaHeart className="text-2xl text-black" />
                       </span>
                     </div>

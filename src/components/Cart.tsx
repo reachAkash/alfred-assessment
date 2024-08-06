@@ -4,7 +4,8 @@ import { RxCross1 } from "react-icons/rx";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
-import { removeFromCart } from "@/redux/foodSlice";
+import { placeOrder, removeFromCart } from "@/redux/foodSlice";
+import { toast } from "sonner";
 
 const Cart: React.FC = () => {
   const navigate = useNavigate();
@@ -18,6 +19,11 @@ const Cart: React.FC = () => {
     0
   );
   const discount = subTotalPrice / 10;
+  const handlePlaceorder = () => {
+    dispatch(placeOrder());
+    toast("Order Placed successfully 🎉");
+    navigate("/orders");
+  };
 
   return (
     <div className="container py-4 space-y-8">
@@ -36,13 +42,13 @@ const Cart: React.FC = () => {
             return (
               <div className="flex items-center justify-between">
                 <div className="flex items-center justify-normal gap-4">
-                  <div>
+                  <div className="">
                     <img
-                      className="cart-image flex-shrink-0 rounded-lg"
+                      className="w-[8rem] h-[8rem] cart-image flex-shrink-0 rounded-lg"
                       src={item?.image}
                     />
                   </div>
-                  <div>
+                  <div className="w-[50%]">
                     <div className="space-y-4">
                       <div className="font-medium text-2xl">{item?.item}</div>
                       <div className="">Rs. {item?.price}</div>
@@ -81,6 +87,7 @@ const Cart: React.FC = () => {
         </div>
       </div>
       <button
+        onClick={() => handlePlaceorder()}
         disabled={foodItems.length == 0}
         className="bg-black text-white disabled:opacity-70 rounded-full px-3 py-2 w-full active:scale-95 transition-all ease-in-out duration-300"
       >

@@ -36,15 +36,12 @@ const NavFooter: React.FC = () => {
         >
           <IoCartOutline className="text-white text-2xl" />
         </Link>
-        <IoIosNotificationsOutline
-          onClick={() =>
-            handleToast(
-              "Feature Coming Soon!",
-              "Thank you for your patience..."
-            )
-          }
-          className="text-2xl active:text-red-500"
-        />
+        <Link to="/orders">
+          <div className="relative">
+            <IoIosNotificationsOutline className="text-2xl active:text-red-500" />
+            <span className="absolute top-0 left-1 w-2 h-2 rounded-full bg-red-500"></span>
+          </div>
+        </Link>
         <CiUser
           onClick={() =>
             handleToast(

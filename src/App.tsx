@@ -5,6 +5,7 @@ import FoodItem from "./components/FoodItem";
 import Cart from "./components/Cart";
 import { Toaster } from "@/components/ui/sonner";
 import RestrauntMenu from "./components/RestrauntMenu";
+import Order from "./components/Order";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Route path="/food-item" element={<FoodItem />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/res-menu" element={<RestrauntMenu />} />
+        <Route path="/orders" element={<Order />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Toaster position="bottom-center" />

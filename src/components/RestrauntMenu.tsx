@@ -48,7 +48,7 @@ const RestrauntMenu: React.FC = () => {
             <div className="flex items-center justify-normal gap-2">
               <div className="w-[50%]">
                 <img
-                  className=" w-[12rem] h-[10rem] flex-shrink-0 rounded-lg"
+                  className="w-[12rem] h-[10rem] flex-shrink-0 rounded-lg"
                   src={item?.image}
                   alt={item?.item}
                 />
@@ -80,7 +80,7 @@ const RestrauntMenu: React.FC = () => {
         onClick={() => navigate("/cart")}
         className="bg-black text-white rounded-full px-3 py-2 w-full active:scale-95 transition-all ease-in-out duration-300"
       >
-        Checkout
+        Go to Cart
       </button>
     </div>
   );
