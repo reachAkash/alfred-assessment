@@ -11,7 +11,7 @@ export interface CartPrototype {
 export interface RestrauntState {
   name: string;
   location: string;
-  menu: [];
+  menu: any[];
 }
 
 export interface CartState {
@@ -40,6 +40,7 @@ export const cartSlice = createSlice({
   initialState,
   reducers: {
     currentRes: (state, action: PayloadAction<RestrauntState>) => {
+      console.log(action.payload);
       state.currentRes = action.payload;
     },
     updateCurrentItem: (state, action: PayloadAction<CartPrototype>) => {

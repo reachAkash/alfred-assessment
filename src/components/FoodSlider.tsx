@@ -13,7 +13,7 @@ import {
 import { FaHeart } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { updateCurrentItem } from "@/redux/foodSlice";
+import { currentRes, updateCurrentItem } from "@/redux/foodSlice";
 import { v4 as uuidv4 } from "uuid";
 
 const FoodSlider: React.FC = () => {
@@ -129,11 +129,10 @@ export const PopularItemSlider: React.FC = () => {
 export const RestrauntSlider: React.FC = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const FoodArray = RestrauntData.restaurants;
+  const RestrauntArray = RestrauntData.restaurants;
 
   const handleAddToCurrent = (item: any) => {
-    console.log(item);
-    dispatch(updateCurrentItem(item));
+    dispatch(currentRes(item));
   };
 
   return (
@@ -150,12 +149,12 @@ export const RestrauntSlider: React.FC = () => {
           },
         }}
       >
-        {FoodArray?.map((item) => {
+        {RestrauntArray?.map((item) => {
           return (
             <SwiperSlide key={uuidv4()}>
               <div
                 onClick={() => {
-                  navigate("/food-item");
+                  navigate("/res-menu");
                   handleAddToCurrent(item);
                 }}
                 className="image-container relative flex text-sm text-center flex-col items-center justify-center"
@@ -174,7 +173,10 @@ export const RestrauntSlider: React.FC = () => {
                     </div>
                     <div className="w-full flex items-center justify-between">
                       <button
-                        onClick={() => handleAddToCurrent(item)}
+                        onClick={() => {
+                          navigate("res-menu");
+                          handleAddToCurrent(item);
+                        }}
                         className="bg-white px-8 py-3 rounded-full text-black w-full"
                       >
                         View Menu

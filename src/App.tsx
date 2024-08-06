@@ -4,6 +4,7 @@ import NotFound from "./components/NotFound";
 import FoodItem from "./components/FoodItem";
 import Cart from "./components/Cart";
 import { Toaster } from "@/components/ui/sonner";
+import RestrauntMenu from "./components/RestrauntMenu";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/food-item" element={<FoodItem />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/res-menu" element={<RestrauntMenu />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Toaster />
