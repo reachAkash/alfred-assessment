@@ -1,6 +1,6 @@
 import { addToCart, removeFromCart } from "@/redux/foodSlice";
 import { RootState } from "@/redux/store";
-import React, { useState } from "react";
+import React from "react";
 import { BsCart2 } from "react-icons/bs";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { useDispatch, useSelector } from "react-redux";
@@ -9,14 +9,12 @@ import { toast } from "sonner";
 import { v4 } from "uuid";
 
 const RestrauntMenu: React.FC = () => {
-  const [currItem, setCurrItem] = useState<any>(null);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const restraunt = useSelector((store: RootState) => store.cart.currentRes);
   const menu = restraunt.menu;
 
   const handleAddCart = (item: any) => {
-    setCurrItem(item);
     dispatch(addToCart(item));
   };
 
