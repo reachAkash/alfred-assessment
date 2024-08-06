@@ -55,25 +55,11 @@
           "image": "https://www.pepperdelight.com/wp-content/uploads/2020/10/pepper-delight-butter-chicken-1-scaled.jpg"
         },
         {
-          "item": "Naan",
-          "price": 50,
-          "in_stock": true,
-          "description": "Soft and fluffy leavened flatbread, traditionally cooked in a tandoor.",
-          "image": "https://rainbowplantlife.com/wp-content/uploads/2021/09/updated-naan-photo-for-cover-image-1-of-1-1.jpg"
-        },
-        {
           "item": "Aloo Paratha",
           "price": 80,
           "in_stock": true,
           "description": "Whole wheat flatbread stuffed with a spiced potato filling, served with yogurt or pickle.",
           "image": "https://smithakalluraya.com/wp-content/uploads/2015/02/image.1024x1024-95.jpg"
-        },
-        {
-          "item": "Rasgulla",
-          "price": 100,
-          "in_stock": false,
-          "description": "Spongy and soft cheese balls soaked in light sugar syrup, a classic Bengali sweet.",
-          "image": "https://www.kuchpakrahahai.in/wp-content/uploads/2020/05/Rasgulla-2BRecipe-2Bin-2BPressure-2BCooker.jpg"
         },
         {
           "item": "Palak Paneer",
@@ -116,13 +102,6 @@
           "in_stock": true,
           "description": "Spicy vegetable mash served with buttered buns and garnished with onions and lemon.",
           "image": "https://veganbell.com/wp-content/uploads/2023/08/Pav-Bhaji-1.jpg"
-        },
-        {
-          "item": "Jalebi",
-          "price": 70,
-          "in_stock": false,
-          "description": "Crispy, spiral-shaped sweets soaked in sugar syrup, served warm.",
-          "image": "https://www.sugarspicenmore.com/wp-content/uploads/2022/04/Jalebi.jpg"
         }
       ]
     },
@@ -131,20 +110,6 @@
       "location": "Hyderabad, Telangana",
       "resImage": "https://newflavorsofindia.com/images/location2.jpg",
       "menu": [
-        {
-          "item": "Biryani",
-          "price": 300,
-          "in_stock": true,
-          "description": "Fragrant basmati rice cooked with marinated meat and a blend of spices.",
-          "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg"
-        },
-        {
-          "item": "Haleem",
-          "price": 280,
-          "in_stock": false,
-          "description": "Slow-cooked stew made with meat, lentils, and wheat, seasoned with traditional spices.",
-          "image": "https://greatcurryrecipes.net/wp-content/uploads/2023/04/47E9FC77-772E-4E52-8A77-215AB93E0A5A-735x980.jpeg"
-        },
         {
           "item": "Dum Ka Murgh",
           "price": 350,

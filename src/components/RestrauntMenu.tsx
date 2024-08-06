@@ -48,7 +48,7 @@ const RestrauntMenu: React.FC = () => {
             <div className="flex items-center justify-normal gap-2">
               <div className="w-[50%]">
                 <img
-                  className="w-[12rem] h-[10rem] flex-shrink-0 rounded-lg"
+                  className="w-[8rem] h-[8rem] flex-shrink-0 rounded-lg"
                   src={item?.image}
                   alt={item?.item}
                 />
