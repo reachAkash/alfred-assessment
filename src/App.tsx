@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <Route path="/res-menu" element={<RestrauntMenu />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Toaster />
+      <Toaster position="bottom-center" />
     </BrowserRouter>
   );
 };

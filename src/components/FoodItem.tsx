@@ -61,7 +61,10 @@ const FoodItem: React.FC = () => {
         <div>{food?.description}</div>
       </div>
       <button
-        onClick={() => handleAddToCart(food)}
+        onClick={() => {
+          handleAddToCart(food);
+          handleToast("Item Added to Cart", "Thank you for choosing us...");
+        }}
         className="bg-black text-white rounded-full px-3 py-2 w-full active:scale-95 transition-all ease-in-out duration-300"
       >
         Add to Cart

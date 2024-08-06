@@ -1,8 +1,6 @@
 import React from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { RxCross1 } from "react-icons/rx";
-import { LuMinusCircle } from "react-icons/lu";
-import { LuPlusCircle } from "react-icons/lu";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
@@ -33,28 +31,41 @@ const Cart: React.FC = () => {
         <div className="font-semibold text-2xl">My Cart</div>
       </div>
       <div className="space-y-7">
-        {foodItems?.map((item) => {
-          return (
-            <div className="flex items-center justify-between">
-              <div className="flex items-center justify-normal gap-4">
-                <div>
-                  <img
-                    className="cart-image flex-shrink-0 rounded-lg"
-                    src={item?.image}
-                  />
-                </div>
-                <div>
-                  <div className="space-y-4">
-                    <div className="font-medium text-2xl">{item?.item}</div>
-                    <div className="">Rs. {item?.price}</div>
+        {foodItems.length > 0 ? (
+          foodItems?.map((item) => {
+            return (
+              <div className="flex items-center justify-between">
+                <div className="flex items-center justify-normal gap-4">
+                  <div>
+                    <img
+                      className="cart-image flex-shrink-0 rounded-lg"
+                      src={item?.image}
+                    />
+                  </div>
+                  <div>
+                    <div className="space-y-4">
+                      <div className="font-medium text-2xl">{item?.item}</div>
+                      <div className="">Rs. {item?.price}</div>
+                    </div>
                   </div>
                 </div>
+                <RxCross1 onClick={() => handleRemoveCart(item?.item)} />
               </div>
-              <RxCross1 onClick={() => handleRemoveCart(item?.item)} />
+            );
+          })
+        ) : (
+          <div className="h-[53vh] flex flex-col items-center justify-center space-y-3">
+            <div className="font-semibold text-2xl">Cart is Empty!</div>
+            <div
+              onClick={() => navigate("/")}
+              className="bg-black text-white px-4 py-2 rounded-full w-fit"
+            >
+              Add Items
             </div>
-          );
-        })}
+          </div>
+        )}
       </div>
+
       <div className=" space-y-2">
         <div className="flex items-center justify-between">
           <div className="font-medium">Sub Total</div>
@@ -69,7 +80,10 @@ const Cart: React.FC = () => {
           <div>Rs. {subTotalPrice - discount}</div>
         </div>
       </div>
-      <button className="bg-black text-white rounded-full px-3 py-2 w-full active:scale-95 transition-all ease-in-out duration-300">
+      <button
+        disabled={foodItems.length == 0}
+        className="bg-black text-white disabled:opacity-70 rounded-full px-3 py-2 w-full active:scale-95 transition-all ease-in-out duration-300"
+      >
         Checkout
       </button>
     </div>
