@@ -115,31 +115,33 @@ export const PopularItemSlider: React.FC = () => {
                     <div className="w-full flex items-center justify-between">
                       <button
                         onClick={() => handleAddToCurrent(item)}
-                        className="bg-white px-8 py-3 rounded-full text-black"
+                        className="bg-white px-10 py-3 rounded-full text-black"
                       >
                         View Item
                       </button>
                       <span
-                        onClick={() =>
+                        onClick={(e) => {
                           handleToast(
                             "Feature Coming Soon!",
                             "Thank you for your patience..."
-                          )
-                        }
+                          );
+                          e.stopPropagation();
+                        }}
                         className="p-3 bg-gray-100 rounded-full"
                       >
                         <IoChatbubbleEllipsesOutline className="text-2xl text-black" />
                       </span>
                       <span
-                        onClick={() =>
+                        onClick={(e) => {
                           handleToast(
                             "Feature Coming Soon!",
                             "Thank you for your patience..."
-                          )
-                        }
+                          );
+                          e.stopPropagation();
+                        }}
                         className="p-3 bg-gray-100 rounded-full"
                       >
-                        <FaHeart className="text-2xl text-black" />
+                        <FaHeart className="text-2xl text-black active:text-red-500" />
                       </span>
                     </div>
                   </div>
